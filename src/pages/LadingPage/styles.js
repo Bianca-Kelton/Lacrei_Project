@@ -62,6 +62,7 @@ export const Section_01 = styled.section`
         color: white;
 
         :hover {
+          scale: 1.05;
           filter: brightness(1.2);
           transition: all 0.4s ease;
         }
@@ -91,6 +92,12 @@ export const Section_01 = styled.section`
         gap: 10px;
 
         button {
+
+          :hover{
+            scale: 1.05;
+            transition: all 0.4s ease;
+          }
+
           width: 161px;
           height: 58px;
 

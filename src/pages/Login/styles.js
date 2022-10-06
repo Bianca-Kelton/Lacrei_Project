@@ -115,6 +115,7 @@ export const Container = styled.div`
           color: var(--color-grey-6);
 
           :hover {
+            scale: 1.05;
             filter: brightness(1.2);
             transition: all 0.4s ease;
           }
