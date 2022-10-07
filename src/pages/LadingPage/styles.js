@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import bgSection1 from "../../assests/img/bg-section-1.svg";
+import 'animate.css';
 
 export const Container = styled.div`
   width: 100vw;
@@ -152,11 +153,14 @@ export const Section_01 = styled.section`
         width: 870px;
         margin-left: -96px;
         margin-bottom: 5px;
+        animation: pulse 2s infinite;
+      
       }
       .phone {
         width: 275px;
         margin-left: -360px;
         margin-bottom: 5px;
+        animation: pulse 2s infinite;
       }
     }
   }

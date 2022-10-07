@@ -10,7 +10,7 @@ export default createGlobalStyle`
         /* Primary Palette */
 
         --color-primary-green: #018762;
-        --color-primary-rosa: #DF1098;
+        --color-primary-rosa: #DF1092;
 
         /* Grey Scale Palette */
 

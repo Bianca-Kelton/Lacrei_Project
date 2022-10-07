@@ -72,7 +72,7 @@ const LandingPage = () => {
         </div>
       </Section_01>
 
-      <Section_atendimento>
+      <Section_atendimento data-aos="fade-up-right">
         <div className="ilustrate">
           <figure>
             <img src={imgAtendimento} alt="" />
@@ -90,7 +90,7 @@ const LandingPage = () => {
         </div>
       </Section_atendimento>
 
-      <Section_avalie>
+      <Section_avalie data-aos="fade-up-left">
         <div className="content">
           <h1>Avalie sua experiência</h1>
           <p>
@@ -107,7 +107,7 @@ const LandingPage = () => {
         </div>
       </Section_avalie>
 
-      <Section_profissionais>
+      <Section_profissionais data-aos="flip-up">
         <div>
           <h1>Faça parte dessa rede de profissionais</h1>
           <p>
